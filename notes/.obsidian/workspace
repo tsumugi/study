@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "e908a5fb75b0edf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a3f620d1388211a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "西方哲学/论康德与黑格尔/2康德的世界观.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "23a5ef229147703a",
+    "type": "split",
+    "children": [
+      {
+        "id": "170dff805481c4a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49b4e9ec6b0aea26",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "773db9eb85d66bbb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d6c516f7994ad87d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5977c8ccc5943aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3036b56fbbf44105",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "西方哲学/论康德与黑格尔/2康德的世界观.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "468655c2c12f7e46",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9a3f620d1388211a",
+  "lastOpenFiles": [
+    "西方哲学/论康德与黑格尔/2康德的世界观.md",
+    "西方哲学/论康德与黑格尔/1导言.md",
+    "西方哲学/现代西方哲学十五讲/5狄尔泰.md",
+    "西方哲学/现代西方哲学十五讲/4柏格森.md",
+    "西方哲学/现代西方哲学十五讲/3尼采.md",
+    "西方哲学/现代西方哲学/英美哲学/0导言.md",
+    "西方哲学/现代西方哲学/英美哲学/1实用主义先驱皮尔士.md",
+    "西方哲学/现代西方哲学/欧陆哲学/0开题.md",
+    "西方哲学/现代西方哲学/欧陆哲学/1叔本华.md",
+    "西方哲学/现代西方哲学十五讲/2叔本华与祁克果.md"
+  ]
+}

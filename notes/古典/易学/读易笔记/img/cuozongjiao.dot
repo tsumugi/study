@@ -1,0 +1,188 @@
+digraph G {
+
+    node [shape=none, fontcolor=dimgray,  fontname="Microsoft YaHei"]
+
+    qian [label="䷀ 乾"]
+    kun [label="䷁ 坤"]
+    zhun [label="䷂ 屯"]
+    meng [label="䷃ 蒙"]
+    xu [label="䷄ 需"]
+    song [label="䷅ 讼"]
+    shi [label="䷆ 师"] 
+    bi [label="䷇ 比"] 
+    xiaoxu [label="䷈ 小畜"]
+    lv [label="䷉ 履"] 
+    tai [label="䷊ 泰"]
+    pi [label="䷋ 否"] 
+    tongren [label="䷌ 同人"]
+    dayou [label="䷍ 大有"]
+    qian1 [label="䷎ 谦"] 
+    yu [label="䷏ 豫"] 
+    sui [label="䷐ 随"] 
+    gu [label="䷑ 蛊"] 
+    lin [label="䷒ 临"] 
+    guan [label="䷓ 观"] 
+    shihe [label="䷔ 噬嗑"] 
+    bi1 [label="䷕ 贲"] 
+    bo [label="䷖ 剥"]
+    fu[label="䷗ 复"]
+    wuwang [label="䷘ 无妄"]
+    daxu [label="䷙ 大畜"]
+    yi [label="䷚ 颐"]
+    daguo [label="䷛ 大过"]
+    kan [label="䷜ 坎"]
+    li [label="䷝ 离"] 
+    xian [label="䷞ 咸"]
+    heng [label="䷟ 恒"]
+    dun [label="䷠ 遯"]
+    dazhuang [label="䷡ 大壮"]
+    jin [label="䷢ 晋"] 
+    mingyi [label="䷣ 明夷"]
+    jiaren[label="䷤ 家人"]
+    kui[label="䷥ 睽"]
+    jian[label="䷦ 蹇"]
+    jie [label="䷧ 解"]
+    sun [label="䷨ 损"]
+    yi1 [label="䷩ 益"] 
+    guai [label="䷪ 夬"]
+    gou [label="䷫ 姤"] 
+    cui [label="䷬ 萃"] 
+    sheng [label="䷭ 升"] 
+    kun1 [label="䷮ 困"] 
+    jing [label="䷯ 井"]
+    ge[label="䷰ 革"]
+    ding [label="䷱ 鼎"]
+    zhen [label="䷲ 震"]
+    gen [label="䷳ 艮"] 
+    jian1 [label="䷴ 渐"] 
+    guimei [label="䷵ 归妹"] 
+    feng [label="䷶ 丰"] 
+    lv1 [label="䷷ 旅"] 
+    xun [label="䷸ 巽"] 
+    dui [label="䷹ 兑"] 
+    huan [label="䷺ 涣"] 
+    jie1 [label="䷻ 节"] 
+    zhongfu [label="䷼ 中孚"]
+    xiaoguo [label="䷽ 小过"]
+    jiji [label="䷾ 既济"]
+    weiji [label="䷿ 未济"] 
+
+
+    edge [ fontcolor=burlywood,fontsize=8, fontname="Microsoft YaHei",label="综", dir=both,  arrowhead=open, arrowtail=open color=burlywood]
+
+    qian -> qian;
+    kun -> kun
+    zhun -> meng;
+    xu -> song;
+    shi->bi;
+    xiaoxu->lv;
+    tai->pi;
+    tongren->dayou;
+    qian1->yu;
+    sui->gu;
+    lin->guan;
+    shihe->bi1;
+    bo->fu;
+    wuwang->daxu;
+    yi->yi;
+    daguo->daguo;
+    kan->kan;
+    li->li;
+
+    xian->heng;
+    dun->dazhuang;
+    jin->mingyi;
+    jiaren->kui;
+    jian->jie;
+    sun->yi1;
+    guai->gou;
+    cui->sheng;
+    kun1->jing;
+    ge->ding;
+    zhen->gen;
+    jian1->guimei;
+    feng->lv1;
+    xun->dui;
+    huan->jie1;
+    zhongfu->zhongfu;
+    xiaoguo->xiaoguo;
+    jiji->weiji;
+
+
+    edge [ fontcolor=skyblue,fontsize=8, label="错",  arrowhead=normal, arrowtail=normal color=skyblue]
+    qian->kun;
+    zhun->ding;
+    meng->ge;
+    xu->jin;
+    song->mingyi;
+    shi->tongren;
+    bi->dayou;
+    xiaoxu->yu;
+    lv->qian1;
+    tai->pi;
+    sui->gu;
+    lin->dun;
+    guan->dazhuang;
+    shihe->jing;
+    bi1->kun1;
+    bo->guai;
+    fu->gou;
+    wuwang->sheng;
+    daxu->cui;
+    yi->daguo;
+    kan->li;
+    xian->sun;
+    heng->yi1;
+    jiaren->jie;
+    kui->jian;
+    zhen->xun;
+    gen->dui;
+    jian1->guimei;
+    feng->huan;
+    lv1->jie1;
+    zhongfu->xiaoguo;
+    jiji->weiji;
+
+
+  edge [ fontcolor=lightcoral, label="交",  arrowhead=diamond, arrowtail=diamond color=lightcoral]
+  qian->qian;
+  kun->kun;
+  zhun->jie;
+  meng->jian;
+  xu->song;
+  shi->bi;
+  xiaoxu->gou;
+  lv->guai;
+  tai->pi;
+  sui->guimei;
+  gu->jian1;
+  lin->cui;
+  guan->sheng;
+  yi->xiaoguo;
+  daguo->zhongfu;
+  kan->kan;
+  li->li;
+  xian->sun;
+  heng->yi1;
+  zhen->zhen;
+  gen->gen;
+  dui->dui;
+  xun->xun;
+  shihe->feng;
+  bi1->lv1;
+  jiji->weiji;
+
+  ge->kui;
+  jiaren->ding;
+  jin->mingyi;
+  tongren->dayou;
+  qian1->bo;
+  yu->fu;
+  dun->daxu;
+  dazhuang->wuwang;
+  kun1->jie1;
+  jing->huan;
+
+
+  
+}

@@ -1,0 +1,149 @@
+digraph G {
+
+    node [shape=none, fontcolor=dimgray,  fontname="Microsoft YaHei"]
+
+    qian [label="䷀ 乾"]
+    kun [label="䷁ 坤"]
+    zhun [label="䷂ 屯"]
+    meng [label="䷃ 蒙"]
+    xu [label="䷄ 需"]
+    song [label="䷅ 讼"]
+    shi [label="䷆ 师"] 
+    bi [label="䷇ 比"] 
+    xiaoxu [label="䷈ 小畜"]
+    lv [label="䷉ 履"] 
+    tai [label="䷊ 泰"]
+    pi [label="䷋ 否"] 
+    tongren [label="䷌ 同人"]
+    dayou [label="䷍ 大有"]
+    qian1 [label="䷎ 谦"] 
+    yu [label="䷏ 豫"] 
+    sui [label="䷐ 随"] 
+    gu [label="䷑ 蛊"] 
+    lin [label="䷒ 临"] 
+    guan [label="䷓ 观"] 
+    shihe [label="䷔ 噬嗑"] 
+    bi1 [label="䷕ 贲"] 
+    bo [label="䷖ 剥"]
+    fu[label="䷗ 复"]
+    wuwang [label="䷘ 无妄"]
+    daxu [label="䷙ 大畜"]
+    yi [label="䷚ 颐"]
+    daguo [label="䷛ 大过"]
+    kan [label="䷜ 坎"]
+    li [label="䷝ 离"] 
+    xian [label="䷞ 咸"]
+    heng [label="䷟ 恒"]
+    dun [label="䷠ 遯"]
+    dazhuang [label="䷡ 大壮"]
+    jin [label="䷢ 晋"] 
+    mingyi [label="䷣ 明夷"]
+    jiaren[label="䷤ 家人"]
+    kui[label="䷥ 睽"]
+    jian[label="䷦ 蹇"]
+    jie [label="䷧ 解"]
+    sun [label="䷨ 损"]
+    yi1 [label="䷩ 益"] 
+    guai [label="䷪ 夬"]
+    gou [label="䷫ 姤"] 
+    cui [label="䷬ 萃"] 
+    sheng [label="䷭ 升"] 
+    kun1 [label="䷮ 困"] 
+    jing [label="䷯ 井"]
+    ge[label="䷰ 革"]
+    ding [label="䷱ 鼎"]
+    zhen [label="䷲ 震"]
+    gen [label="䷳ 艮"] 
+    jian1 [label="䷴ 渐"] 
+    guimei [label="䷵ 归妹"] 
+    feng [label="䷶ 丰"] 
+    lv1 [label="䷷ 旅"] 
+    xun [label="䷸ 巽"] 
+    dui [label="䷹ 兑"] 
+    huan [label="䷺ 涣"] 
+    jie1 [label="䷻ 节"] 
+    zhongfu [label="䷼ 中孚"]
+    xiaoguo [label="䷽ 小过"]
+    jiji [label="䷾ 既济"]
+    weiji [label="䷿ 未济"] 
+
+
+    edge [ dir=forward, arrowhead=open, color=green]
+
+    qian -> qian;
+    kun -> kun;
+
+    zhun -> bo -> kun;
+    meng -> fu -> kun;
+
+    shi -> fu;
+    bi -> bo;
+
+    lin -> fu;
+    guan -> bo;
+    
+    xu -> kui -> jiji -> weiji;
+    song -> jiaren -> weiji -> jiji;
+
+    xiaoxu -> kui;
+    lv -> jiaren;
+
+    tai -> guimei -> jiji;
+    pi -> jian1 -> weiji;
+
+    sui -> jian1;
+    gu -> guimei;
+
+    wuwang -> jian1;
+    daxu -> guimei;
+
+    qian1 -> jie -> jiji;
+    yu -> jian -> weiji;
+
+    shihe -> jian;
+    bi1 -> jie;
+
+    tongren -> gou -> qian;
+    dayou -> guai -> qian;
+    
+
+    kan -> yi -> kun;
+    li -> daguo -> qian;
+
+    xian -> gou;
+    heng -> guai;
+
+    dun -> gou;
+    dazhuang -> guai;
+
+    jin -> jian;
+    mingyi -> jie;
+
+    sun -> fu;
+    yi1 -> bo;
+
+    cui -> jian1;
+    sheng -> guimei;
+
+    kun1 -> jiaren;
+    jing -> kui;
+
+    ge -> gou;
+    ding -> guai;
+
+    zhen -> jian;
+    gen -> jie;
+
+    feng -> daguo;
+    lv1 -> daguo;
+
+    xun  -> kui;
+    dui -> jiaren;
+
+    huan -> yi;
+    jie1 -> yi;
+
+    zhongfu -> yi;
+    xiaoguo -> daguo;
+
+}
